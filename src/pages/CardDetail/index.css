@@ -1,0 +1,96 @@
+/* Styling for the container of the card detail page */
+.card-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the card detail section */
+  .card-detail {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Styling for the title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the input fields in edit mode */
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the Save and Edit buttons */
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Styling for the Show/Hide Password and Copy Password buttons */
+  .card-detail button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Styling for the back button */
+  .back-button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #999;
+  }
+  
+  /* Styling for the password section */
+  p span {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the password input in edit mode */
+  input[type='password'] {
+    width: 80%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for the buttons inside the password section */
+  p button {
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Styling for the buttons inside the password section when disabled */
+  p button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

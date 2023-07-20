@@ -1,0 +1,34 @@
+.lateral-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+.lateral-menu.open {
+    left: 0;
+}
+
+.menu-content {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.close-button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
